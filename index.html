@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chayan's portfolio showcasing projects, background, and contact information.">
+    <meta name="keywords" content="Chayan, portfolio, computer science, AI, machine learning, projects, contact">
+    <meta name="author" content="Chayan">
+    <title>KALIMATA ONLINE</title>
+    <style>
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #dbd3d3;
+            
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(255, 255, 255);
+            padding: 0 20px;
+            color: rgb(11, 165, 236);
+            position:sticky;
+        }
+
+        nav .left {
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        nav ul li a:hover {
+            color: rgb(163, 17, 230);
+            font-size: 1.1rem;
+        }
+
+        .firstSection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            text-align: center;
+        }
+        .project h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+
+        .About,
+        .project,
+        .contact-section {
+            background-color: rgb(232, 243, 243);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border: 2px solid black;
+        }
+
+        .About h1,
+        .contact-section h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .About p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .About ul{
+            list-style: none;
+            
+        }
+
+
+        .contact-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-section ul li {
+            display: flex;
+            align-items: center;
+            margin: 10px 15px;
+        }
+
+        .contact-section ul li a {
+            text-decoration: none;
+            color: #0077b5;
+            font-size: 1rem;
+            margin-left: 10px;
+        }
+        .contact-section ul li img {
+            width: 24px;
+            height: 24px;
+            margin-right:10px;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+
+                flex-direction: column;
+                align-items: flex-start;
+                height: auto;
+            }
+
+            nav ul {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .firstSection {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .leftSection {
+                font-size: 1.2rem;
+            }
+
+            .rightSection img {
+                max-width: 90%;
+            }
+
+            .About,
+            .contact-section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+
+            .project1 {
+                padding: 15px;
+                margin: 10px;
+            }
+
+            .right_section_video {
+                max-width: 100%;
+                margin: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .leftSection {
+                font-size: 1rem;
+            }
+
+            .rightSection img {
+                max-width: 100%;
+            }
+
+            .About h1,
+            .contact-section h1 {
+                font-size: 1.1rem;
+            }
+
+            .About  {
+                font-size: 1rem;
+            }
+
+            .project1 h2,
+            .project1 h3 {
+                font-size: 1.1rem;
+            }
+
+            .project1 p {
+                font-size: 0.8rem;
+            }
+
+            .project1_link a img {
+                width: 20px;
+                height: 20px;
+            }
+            .right_section_video video {
+            width: 70%;
+            height: auto;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h1>KALIMATA ONLINE</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#project">Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#About">Address</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                Welcome to my work shop
+            </div>
+        </section>
+    </header>
+
+   
+
+    <section class="project" id="project">
+        <h1>WORK</h1>
+        <ul>
+            <li>PAN CARD (NEW AND CORRECTION)</li>
+            <li>ONLINE FORM FILLUP / SCHOLARSHIP FORM FILLUP</li>
+            <li>PASSPORT (NEW AND RENEWAL)</li>
+            <li>PASSPORT SIZE PHOTO / COLOR PRINT / XEROX</li>
+            <li>NEW SIM CARD (Airtel, VI, Jio) / PORT AND RECHARGE </li>
+            <li>ITR FILING</li>
+            <li>NEW GST CERTIFICITE APPLY</li>
+            <LI>UDYAM CERTIFICATE APPLY</LI>
+            <LI>TRADE LICENSE (NEW AND RENEWAL)</LI>
+            <LI>LAMINATION</LI>
+            <LI>ALL TYPE OF STATIONARY GOODS SUPPLY</LI>
+        </ul>
+       
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-section">
+            <h1>Contact Me</h1>
+            <ul id="phone_number">
+             <li><img src="logos/phone.png" alt="phone">8017937051</li>
+             <li><img src="logos/whatsapp.png" alt="whatsapp">8017937051</li>
+             <li><img src="logos/gmail.png" alt="gmail"></li>
+            </ul>
+       
+        </div>
+    </section>
+    <footer>
+      
+        <section class="About" id="About">
+       
+            <h1>Address</h1>
+        
+        <ul>
+            <li>Vill:Kukshimla, P/O: Raidogachia, Dist:Purba Bardhaman, Pin:713513, W.B.</li>
+            <li><a href="https://maps.app.goo.gl/ye2Rxujs38F8Q1fW6">View location</a></li>
+        </ul>
+    </section>
+    </footer>
+
+</body>
+
+</html>
